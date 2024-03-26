@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #344a72;
+    line-height: 1.6em;
+    font-family: "Raleway", sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #49c1a2;
+}
+
+#container {
+  /* -Remember, margin: auto on left and right will center a
+  block element
+  -I would also set a "max-width"for responsiveness
+  -May want to add some padding */
+  max-width: 500px;
+  margin: 2.5em auto;
+  padding: 20px;
+  border: 1px solid #f4f4f4;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.form-wrap {
+  /* This is the white area around the form and heading, etc */
+  display: inline-block;
+  
+}
+
+.form-wrap h1,
+.form-wrap p {
+  text-align: center;
+  margin: 20px 10px;
+  font-weight: 500;
+}
+
+.form-wrap .form-group {
+  /*
+   Each label, input is wrapped in .form-group
+   */
+  color: #8e989a;
+  padding: 10px 0px;
+  width: 100%;
+}
+
+
+.form-wrap .form-group label {
+  /* Label should be turned into a block element
+  */
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-wrap .form-group input {
+  /*
+  Inputs should reach accross the .form-wrap 100% and
+  have some padding
+  */
+  display: block;
+  width: 100%;
+  height: 35px;
+}
+
+.form-wrap button {
+  /* 
+    Button should wrap accross 100% and display as block
+    Background color for button is #49c1a2
+  */
+  display: block;
+  width: 100%;
+  background-color: #49c1a2;
+  color: #fff;
+  height: 35px;
+  border-radius: 5px;
+  border: none;
+  font-size: large;
+  margin-top: 10px;
+}
+
+.form-wrap button:hover {
+  /*     
+    Hover background color for button is #37a08e
+     */
+  background-color: #37a08e;
+}
+
+.form-wrap .bottom-text {
+  /* Bottom text is smaller */
+  font-size: 15px;
+}
+
+
+.footer a {
+    /*
+    -Footer link color is #49c1a2
+    */
+    text-align: center;
+    color: #49c1a2;
+}
